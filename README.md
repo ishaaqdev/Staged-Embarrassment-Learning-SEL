@@ -171,14 +171,21 @@ A camera system that uses the embarrassment signal as an "attention trigger" rec
 
 ```
 staged-embarrassment-learning/
-├── staged_embarrassment_v3.ipynb   # Main experiment notebook
-├── baseline_hist.csv               # Per-epoch training history (baseline)
-├── staged_hist.csv                 # Per-epoch training history (SEL)
-├── results_final.png               # Full results dashboard
-├── thermal_baseline.png            # Per-image prediction grid (baseline)
-├── thermal_staged.png              # Per-image prediction grid (SEL)
-├── README.md
-└── LICENSE
+│   index.html
+│   LICENSE
+│   README.md
+│   requirements.txt
+│   staged_embarrassment_v3.ipynb
+│   structure.txt
+│
+├───logs
+│       baseline_hist.csv
+│       staged_hist.csv
+│
+└───visulas
+        results_final.png
+        thermal_baseline.png
+        thermal_staged.png
 ```
 
 ---
