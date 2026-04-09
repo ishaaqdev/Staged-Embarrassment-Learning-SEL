@@ -171,7 +171,7 @@ A camera system that uses the embarrassment signal as an "attention trigger" rec
 
 ```
 staged-embarrassment-learning/
-│   index.html
+│   stats.html
 │   LICENSE
 │   README.md
 │   requirements.txt
