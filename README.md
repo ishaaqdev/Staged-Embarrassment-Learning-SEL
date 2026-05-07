@@ -3,7 +3,13 @@
 *A curriculum-driven, sparsity-aware training framework for efficient neural networks.*
 *Inspired by how humans learn — through failure, reflection, and focused effort.*
 
+
 ---
+
+### [🚀 Live Website Demo](https://ishaaqdev.github.io/Staged-Embarrassment-Learning-SEL/)
+
+---
+
 
 ## The Idea Behind the Name
 
@@ -171,12 +177,13 @@ A camera system that uses the embarrassment signal as an "attention trigger" rec
 
 ```
 staged-embarrassment-learning/
-│   stats.html
 │   LICENSE
 │   README.md
 │   requirements.txt
 │   staged_embarrassment_v3.ipynb
-│   structure.txt
+│
+├───docs
+│       index.html
 │
 ├───logs
 │       baseline_hist.csv
